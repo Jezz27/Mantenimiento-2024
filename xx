@@ -1,0 +1,167 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eef2f3;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Formulario de Contacto</h2>
+    <form action="/enviar" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+</body>
+</html>
+
+
+<iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15794.38213780045!2d-73.3562493!3d8.243362099999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e677bba4c7c8ae9%3A0xdaae2a9cb7156982!2sAGUA%20POTABLE%20TRATADA%20JORD%C3%81N!5e0!3m2!1ses!2sco!4v1728412756457!5m2!1ses!2sco" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                style="border:0;" 
+                allowfullscreen="" 
+                aria-hidden="False"
+                tabindex="0"></iframe>
+            </iframe>  
