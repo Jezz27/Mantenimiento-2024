@@ -392,11 +392,27 @@ button:hover {
 }
 .map-container{
     height: 600px;
-    width: 600px;
+    width: 100%;
 }
-
-
-
+video {
+    background-color: #fff; 
+            padding: 20px; 
+            border-radius: 8px;
+            width: 100%; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los espacios entre celdas */
+    margin: 20px 0; /* Margen alrededor de la tabla */
+}
+th, td {
+    border: 1px solid #ccc; /* Borde de las celdas */
+    padding: 8px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+}
+th {
+    background-color: #f2f2f2; /* Color de fondo para encabezados */
+}
 @media (max-width: 600px) {
     .container {
         padding: 20px;
